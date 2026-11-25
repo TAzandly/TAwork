@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!1 &2938043873756846184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 7
+  m_Component:
+  - component: {fileID: 1705509298919104969}
+  - component: {fileID: 5428720250671261716}
+  - component: {fileID: 6963211601794749819}
+  - component: {fileID: 6552954534655945836}
+  m_Layer: 0
+  m_HasEditorInfo: 1
+  m_Name: EID_3154
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1705509298919104969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2938043873756846184}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 125.03711, y: 0.5004322, z: 79.85264}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5428720250671261716
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2938043873756846184}
+  m_Mesh: {fileID: 4300000, guid: 7a65b3334cac56f4c836258b53f6bd8d, type: 2}
+--- !u!23 &6963211601794749819
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2938043873756846184}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_virtualGeometry: 0
+  m_ShadingRate: 0
+  m_ForceDisableGRD: 0
+  m_ForceDisableSmallMeshCull: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31e46f5475cf9904e9736820342d838a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+  m_MaskInteraction: 0
+--- !u!114 &6552954534655945836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2938043873756846184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a480dad7b68dcc24bbc7592b12862d6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventId: 3154
+  exportRoot: D:/NPR/darkwarfog_rdc_export
+  sourceManifest: D:/NPR/darkwarfog_rdc_export\draws\eid_3154_manifest.json
+  meshNote: "vsout_attributes.csv\uFF08\u6620\u5C04 \u4F4D\u7F6E=_sig44._child0 UV0=_output2\uFF09\uFF1B\u7D22\u5F15\u6765\u81EA
+    eid_3154_vsout_indices.txt\uFF08600\uFF09\uFF1BVP \u53CD\u63A8\u4E16\u754C\u5750\u6807\uFF08eid_3154_id_26043_vertex_Shader_Module_26043_cbuffers.json:_child2\uFF0C121/121\uFF0C\u4FDD\u6301\u6293\u5E27\u8F74\u5411\uFF09"
+  usedCaptureWorld: 1
+  convertedToUnityYUp: 0
+  reversedWinding: 0
+  flippedUvV: 1
+  unitScale: 1
+  captureCenter: {x: 125.03711, y: 0.5004322, z: 79.85264}
+  unityCenter: {x: 125.03711, y: 0.5004322, z: 79.85264}
+  vertexCount: 121
+  indexCount: 600
+  pixelTextures:
+  - stage: Pixel
+    registerName: t0
+    slot: 0
+    resourceId: 24846
+    resourceName: 2D Color Attachment 24846
+    texture: {fileID: 2800000, guid: 5356361dcf8c4cd4f91ffd94f447affa, type: 3}
+  - stage: Pixel
+    registerName: t1
+    slot: 1
+    resourceId: 24954
+    resourceName: 2D Color Attachment 24954
+    texture: {fileID: 2800000, guid: 8a836bbbc9bb92246b69125f3ac5df64, type: 3}
+  - stage: Pixel
+    registerName: t2
+    slot: 2
+    resourceId: 25573
+    resourceName: 2D Color Attachment 25573
+    texture: {fileID: 2800000, guid: 882b2099443942941bade92ad2572705, type: 3}
